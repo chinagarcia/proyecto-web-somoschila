@@ -136,7 +136,20 @@ box-shadow: 3px 3px aquamarine
     
 }
 
-/* PAG. CONTACTO */
+/* NOSOTROS Rama en GIT */
+
+.fondoNosotros{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  }
+
+ .logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+ }
+
+  /* PAG. CONTACTO */
 
   body{
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
