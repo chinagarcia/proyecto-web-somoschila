@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black
+}
+
+/* INDEX GRID */
+
+.grilla{
+  display: grid;
+  grid-template-columns: repeat(4, 25vw);
+  grid-template-rows: 250px 250px 250px 250px;
+  grid-template-areas: 
+  "header header header header"
+  ". section section ."
+  ". section section ."
+  ". section section ."
+  ". footer footer ."
+  ;
+  grid-row-gap: 15px;
+}
+
+
+/* GRID PRODUCTOS */
+
+.section-grid-productos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "prod1 prod2 prod3"
+  "prod4 prod5 prod6";
+  grid-row-gap: 15px;
+}
+.prod1 {
+  grid-area: prod1;
+}
+.prod2 {
+  grid-area: prod2;
+}
+.prod3 {
+  grid-area: prod3;
+}
+.prod4 {
+  grid-area: prod4;
+}
+.prod5 {
+  grid-area: prod5;
+}
+.prod6 {
+  grid-area: prod6;
+}
+
+/* HEADER */
+
+.header{
+  grid-area: header;
+  margin-inline-end: 15px;
+  margin: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header img{
+  grid-area: header;
+  border-radius: 100%;
+  width: 180px;
+  padding: 10px;
+  justify-content: start;
+}
+.header ul{
+  grid-area: header;
+  display: flex;
+  list-style: none;
+}
+
+.header li a{
+/* grid-area: header; */
+margin: 10px 20px;
+font-size: 20px;
+margin: 10px;
+padding: 20px;
+text-decoration: none;
+}
+
+.lista a{
+/* grid-area: header; */
+display: inline-block;
+text-decoration: none;
+padding: 20px;
+margin: 10px;
+color: #551a8b;
+}
+
+.lista a:hover{
+background-color: rgb(220, 236, 220);
+box-shadow: 3px 3px aquamarine
+}
+
+.section{
+  grid-area: section;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+
+.footer{
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* NOSOTROS */
+
+.lista{
+  font-size: 20px;
+}
+
+.estiloTexto{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 28px;
+  line-height: 2;
+}
+
+.fondoNosotros{
+    background-image:url(../images/LOGO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+/* PAG. CONTACTO */
+
+  body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    min-height: 100vh;
+    width: 100%; 
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+  }
+
+.form__container{
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form__title{
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: .4em;
+}
+
+.form{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.form__input{
+  font-family: inherit;
+  font-size: 16px;
+  padding: .8em 16px;
+}
+
+.form__input--message{
+  resize: none;
+  padding: 2em 1.5em;
+  margin-bottom: .5em;
+}
+
+.form__envio{
+  font-family: inherit;
+  background-color:steelblue;
+  color: white;
+  border: none;
+  font-weight: 300;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+/* FOOTER */
+
+.footer ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer li{
+  margin: 10px 15px;
+}
+
+/* PAG. PRODUCTOS 2 */
+
+
+.header{
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header ul{
+  display: flex;
+  list-style: none;
+}
+
+.header li a{
+  height: 12vh;
+  color: #551a8b;
+  margin: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.header li a:hover{
+    background-color: rgb(220, 236, 220);
+    box-shadow: 3px 3px aquamarine
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* MEDIA QUERYS */
+/* Estrategia : MOBILE LAST */
+
+/* Tamaño mediano: TABLET INDEX */
+@media (max-width: 768px){
+  .grilla{
+    grid-template-areas: 
+    "header header header header"
+    "section section . ."
+    "section section . ."
+    "footer footer footer footer";  
+  }
+}
+
+/* Tamaño chico: Mobil M MEDIANO */
+@media (max-width: 375px){
+  .grilla{
+    grid-template-areas: 
+    ". header header ."
+    ". section . ."
+    ". section . ."
+    ". footer footer ."; 
+  }
+}
+
+/* Tamaño Mediano TABLET PRODUCTOS */
+@media (max-width: 768px){
+ .section-grid-productos{
+  grid-template-areas: 
+  "prod1 prod2 ."
+  "prod3 prod4 ."
+  "prod5 prod6 .";
+
+ }
+}
+
+/* Tamañp chico: Mobil M MEDIANO */
+@media (max-width: 375px){
+  .section-grid-productos{
+    grid-template-areas: 
+    "prod1 . ."
+    "prod2 . ."
+    "prod3 . ."
+    "prod4 . ."
+    "prod5 . ."
+    "prod6 . .";
+  }
+}
