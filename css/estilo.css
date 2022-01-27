@@ -113,6 +113,15 @@ box-shadow: 3px 3px aquamarine
   align-items: center;
 }
 
+/* NOSOTROS */ /* Rama: otroEstiloCSS GIT : TRANSFORMACION - TRANSICION */ 
+.logo:hover{
+  transform: scale(2);
+ }
+
+ .logo{
+   transition-duration: 2s;
+ }
+
 
 
 /* NOSOTROS */
@@ -136,7 +145,6 @@ box-shadow: 3px 3px aquamarine
     
 }
 
-/* NOSOTROS Rama en GIT */
 
 .fondoNosotros{
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
@@ -148,16 +156,8 @@ box-shadow: 3px 3px aquamarine
    align-items: center;
    padding: 20px;
  }
-/* NOSOTROS Rama GIT : TRANSFORMACION - TRANSICION */
- .logo:hover{
-   transform: scale(2);
-  }
-
-  .logo{
-    transition-duration: 2s;
-  }
-
-  /* PAG. CONTACTO */
+ 
+ /* PAG. CONTACTO */
 
   body{
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
