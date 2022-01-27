@@ -121,6 +121,17 @@ box-shadow: 3px 3px aquamarine
   font-size: 20px;
 }
 
+.fondoNosotros{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  }
+
+ .logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+ }
+
 .estiloTexto{
   font-family: 'Bebas Neue', cursive;
   font-size: 28px;
@@ -135,27 +146,6 @@ box-shadow: 3px 3px aquamarine
     height: 100vh;
     
 }
-
-/* NOSOTROS Rama en GIT */
-
-.fondoNosotros{
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  }
-
- .logo{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
- }
-/* NOSOTROS Rama GIT : TRANSFORMACION - TRANSICION */
- .logo:hover{
-   transform: scale(2);
-  }
-
-  .logo{
-    transition-duration: 2s;
-  }
 
   /* PAG. CONTACTO */
 
