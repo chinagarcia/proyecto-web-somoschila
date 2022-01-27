@@ -138,14 +138,7 @@ box-shadow: 3px 3px aquamarine
   line-height: 2;
 }
 
-.fondoNosotros{
-    background-image:url(../images/LOGO.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    
-}
+
 
   /* PAG. CONTACTO */
 
