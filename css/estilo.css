@@ -148,6 +148,14 @@ box-shadow: 3px 3px aquamarine
    align-items: center;
    padding: 20px;
  }
+/* NOSOTROS Rama GIT : TRANSFORMACION - TRANSICION */
+ .logo:hover{
+   transform: scale(2);
+  }
+
+  .logo{
+    transition-duration: 2s;
+  }
 
   /* PAG. CONTACTO */
 
