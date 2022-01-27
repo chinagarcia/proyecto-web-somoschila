@@ -130,22 +130,6 @@ box-shadow: 3px 3px aquamarine
   font-size: 20px;
 }
 
-.estiloTexto{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 28px;
-  line-height: 2;
-}
-
-.fondoNosotros{
-    background-image:url(../images/LOGO.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    
-}
-
-
 .fondoNosotros{
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   }
@@ -156,6 +140,16 @@ box-shadow: 3px 3px aquamarine
    align-items: center;
    padding: 20px;
  }
+
+.estiloTexto{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 28px;
+  line-height: 2;
+}
+
+
+
+
  
  /* PAG. CONTACTO */
 
