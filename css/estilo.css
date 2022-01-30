@@ -119,6 +119,9 @@ box-shadow: 3px 3px aquamarine
 
 .lista{
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fondoNosotros{
