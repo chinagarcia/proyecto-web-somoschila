@@ -225,7 +225,8 @@ box-shadow: 3px 3px aquamarine
 }
 
 .imagenfooter{
-  height: 500px;
+  width: auto;
+  height: 350px;
   display: flex;
   justify-content: center;
   transition-duration: 2s;
