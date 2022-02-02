@@ -26,13 +26,30 @@
     <!-- Comienza Header -->
     <header>
 
-        <nav class="lista">
-            <a href="../index.html">Inicio</a>
-            <a href="./pages/nosotros.html">Nosotros</a>
-            <a href="productos.html">Productos</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="footer.html">Pie</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./footer.html">Pie</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
         <section class="logo">
             <img src="../images/LOGO.jpg" width="275px" height="275px"></img>
@@ -58,7 +75,7 @@
     <!-- Termina Main -->
 
     <!-- Comienza Footer -->
-    <footer>
+    <footer class="nosotrosfooter">
         <p>Somos Chila Backpack Cruelty free</p>
     </footer>
     <!-- Termina Footer -->

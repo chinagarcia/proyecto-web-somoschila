@@ -121,6 +121,7 @@ box-shadow: 3px 3px aquamarine
  .logo{
    transition-duration: 2s;
  }
+
 /* NOSOTROS */
 
 .lista{
@@ -147,10 +148,13 @@ box-shadow: 3px 3px aquamarine
   line-height: 2;
 }
 
+.nosotrosfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
 
-
-
- 
  /* PAG. CONTACTO */
 
   body{
@@ -221,7 +225,6 @@ box-shadow: 3px 3px aquamarine
 }
 
 /* PAG. PRODUCTOS 2 */
-
 
 .header{
   height: 12vh;
