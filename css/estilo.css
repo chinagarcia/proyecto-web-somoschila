@@ -224,6 +224,23 @@ box-shadow: 3px 3px aquamarine
   margin: 10px 15px;
 }
 
+.imagenfooter{
+  display: flex;
+  justify-content: center;
+}
+
+.footerpie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.footer{
+  font-size: 1em;
+}
+
 /* PAG. PRODUCTOS 2 */
 
 .header{
