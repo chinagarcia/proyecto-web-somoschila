@@ -31,11 +31,23 @@
   align-items: center;
 }
 
+/* PAG. PRODUCTOS */
+
+.grilla{
+  padding: 30px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* GRID PRODUCTOS */
 
 .section-grid-productos {
   display: grid;
+  justify-content: space-evenly;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-template-areas: 
@@ -62,17 +74,6 @@
   grid-area: prod6;
 }
 
-
-
-/* NOSOTROS */ /* Rama: otroEstiloCSS GIT : TRANSFORMACION - TRANSICION */ 
-.logo:hover{
-  transform: rotateX(50deg);
- }
-
- .logo{
-   transition-duration: 3s;
- }
-
 /* NOSOTROS */
 
 .fondoNosotros{
@@ -98,6 +99,14 @@
   align-items: center;
   padding: 15px;
 }
+/* TRANSFORMACION - TRANSICION */ 
+.logo:hover{
+  transform: rotateX(50deg);
+ }
+
+ .logo{
+   transition-duration: 3s;
+ }
 
  /* PAG. CONTACTO */
 
@@ -124,9 +133,11 @@
 }
 
 .form{
+  display: flex;
+  justify-content: center;
   background-color: white;
   width: 90%;
-  margin: auto;
+  margin: 30px auto;
   max-width: 400px;
   border-radius: 1em;
   padding: 3.5em 1.5em;
@@ -154,6 +165,12 @@
   border-radius: .2em;
   cursor: pointer;
   font-weight: 400;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }
 
 /* ANEXO */
@@ -191,42 +208,6 @@
 .footer{
   font-size: 1em;
 }
-
-/* PAG. PRODUCTOS 2 */
-
-.header{
-  height: 12vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.header ul{
-  display: flex;
-  list-style: none;
-}
-
-.header li a{
-  height: 12vh;
-  color: #551a8b;
-  margin: 10px 20px;
-  font-size: 20px;
-  margin: 10px;
-  padding: 20px;
-  text-decoration: none;
-}
-
-.header li a:hover{
-    background-color: rgb(220, 236, 220);
-    box-shadow: 3px 3px aquamarine
-}
-
-.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 /* MEDIA QUERYS */
 /* Estrategia : MOBILE LAST */
