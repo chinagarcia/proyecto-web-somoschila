@@ -66,21 +66,14 @@
 
 /* NOSOTROS */ /* Rama: otroEstiloCSS GIT : TRANSFORMACION - TRANSICION */ 
 .logo:hover{
-  transform: scale(2);
+  transform: rotateX(50deg);
  }
 
  .logo{
-   transition-duration: 2s;
+   transition-duration: 3s;
  }
 
 /* NOSOTROS */
-
-.lista{
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .fondoNosotros{
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
