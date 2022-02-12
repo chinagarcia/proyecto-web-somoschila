@@ -31,6 +31,40 @@
   align-items: center;
 }
 
+/* NOSOTROS */
+
+.fondoNosotros{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  }
+
+ .logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+ }
+
+.estiloTexto{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 28px;
+  line-height: 2;
+}
+
+.nosotrosfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+/* TRANSFORMACION - TRANSICION */ 
+.logo:hover{
+  transform: rotateX(50deg);
+ }
+
+ .logo{
+   transition-duration: 3s;
+ }
+
 /* PAG. PRODUCTOS */
 
 .grilla{
@@ -73,40 +107,6 @@
 .prod6 {
   grid-area: prod6;
 }
-
-/* NOSOTROS */
-
-.fondoNosotros{
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  }
-
- .logo{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
- }
-
-.estiloTexto{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 28px;
-  line-height: 2;
-}
-
-.nosotrosfooter{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-}
-/* TRANSFORMACION - TRANSICION */ 
-.logo:hover{
-  transform: rotateX(50deg);
- }
-
- .logo{
-   transition-duration: 3s;
- }
 
  /* PAG. CONTACTO */
 
@@ -173,7 +173,7 @@
   padding: 15px;
 }
 
-/* ANEXO */
+/* ANEXO A TIENDA */
 
 .footer ul{
   display: flex;
@@ -185,17 +185,14 @@
   margin: 10px 15px;
 }
 
-.imagenfooter{
-  width: auto;
-  height: 350px;
+.imagenanexo{
+  width: 600px auto;
+  height: 600px auto;
   display: flex;
   justify-content: center;
   transition-duration: 2s;
+  margin: 30px auto;
 }
-
-.imagenfooter:hover{
-  transform: scale(2);
- }
 
 .footerpie{
   display: flex;
