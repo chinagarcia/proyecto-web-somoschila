@@ -1,0 +1,26 @@
+main {
+  background-color: darkgray; }
+  main h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 10px;
+    padding: 10px; }
+  main div {
+    text-align: center; }
+    main div a {
+      color: white;
+      background-color: black;
+      text-decoration: none; }
+      main div a:hover {
+        background-color: burlywood; }
+  main .parrafo1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em; }
+  main .parrafo2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.footer {
+  background-color: aquamarine;
+  text-align: center; }
+  .footer:hover {
+    background-color: burlywood; }
